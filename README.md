@@ -5,7 +5,7 @@
 
 # Scan-antivirus-station-blanche
 
-**1 - Script : Ce script surveille l'ajout de nouveaux périphériques de stockage via ```udevadm``` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
+**1 - 📄 Script : Ce script surveille l'ajout de nouveaux périphériques de stockage via ```udevadm``` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
 
 **2 - Script : Ce script vérifie et monte un périphérique USB, puis effectue une analyse antivirus avec clamAV sur le périphérique monté. Si le périphérique est correctement monté, il analyse les fichiers et supprime les éléments malveillants, suspects ou indésirables. Après l'analyse, le périphérique est démonté en toute sécurité, et le script attend le retrait physique du périphérique avant de se terminer.**
 
