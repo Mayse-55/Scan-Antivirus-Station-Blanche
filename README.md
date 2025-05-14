@@ -34,11 +34,11 @@ done
 
 **📄 - Ce script vérifie et monte un périphérique USB, puis effectue une analyse antivirus avec clamAV sur le périphérique monté. Si le périphérique est correctement monté, il analyse les fichiers et supprime les éléments malveillants, suspects ou indésirables. Après l'analyse, le périphérique est démonté en toute sécurité, et le script attend le retrait physique du périphérique avant de se terminer.**
 
-**📍​ - Pour faire fonctionner le script correctement il faut modifier Visudo :**
+**1​ - Pour faire fonctionner le script correctement il faut modifier Visudo :**
 ```bash
 visudo
 ```
-**📍​ - Ajouter et Enregistrer:**
+**2​ - Ajouter et Enregistrer:**
 ```bash
 nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
