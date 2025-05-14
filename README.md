@@ -40,8 +40,8 @@ visudo
 **📍​ - Ajouter :**
 ```bash
 nom-de-votre-profil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
+# Changer "nom-de-votre-profil" par le profil que vous avez créer
 ```
-**$ Changer "nom-de-votre-profil" par le profil que vous avez créer**
 
 ```bash                                                                                                                                                                                                                                                                                     
 #!/bin/bash
