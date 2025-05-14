@@ -1,11 +1,11 @@
 # Scan-antivirus-station-blanche
-**Script 1 permettant de vérifier les ports USB et de lancé le deuxiéme script de vérification ClamAV.**
+**1. Script permettant de vérifier les ports USB et de lancé le deuxiéme script de vérification ClamAV.**
 
-**Script 2 permettant de faire un scan ClamAV des périphériques de stockage.**
+**2. Script permettant de faire un scan ClamAV des périphériques de stockage.**
 
 ------------------------------------------------------------------------------
 
-**Script 1 qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
+**1. Script qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
 
 ```bash
 MOUNT_POINT="/mnt/autoscan"
@@ -30,7 +30,7 @@ done
 
 ------------------------------------------------------------------------------
 
-**Script 2 qui scan les périphériques de stockages avec ClamAV**
+**2. Script qui scan les périphériques de stockages avec ClamAV**
 
 ```bash
   GNU nano 7.2                                                                                                                                                                                                                                                                                                    /etc/antivirus/autoscan.sh
