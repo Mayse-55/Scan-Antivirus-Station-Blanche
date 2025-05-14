@@ -7,7 +7,7 @@
 
 **📄 - Ce script surveille l'ajout de nouveaux périphériques de stockage via ```udevadm``` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
 
-**📍​ - Script**
+**📍​ - Script Bash**
 ```bash
 MOUNT_POINT="/mnt/autoscan"
 SCRIPT="/etc/antivirus/autoscan.sh"
@@ -43,7 +43,7 @@ visudo
 nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
 ```
-**📍​ - Script**
+**📍​ - Script Bash**
 ```bash                                                                                                                                                                                                                                                                                     
 #!/bin/bash
 
