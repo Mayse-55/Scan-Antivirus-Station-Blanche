@@ -37,7 +37,7 @@ done
 ```bash
 visudo
 ```
-**📍​ - Ajouter :**
+**📍​ - Ajouter et Enregistrer:**
 ```bash
 nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
