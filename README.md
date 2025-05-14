@@ -1,11 +1,11 @@
 # Scan-antivirus-station-blanche
-**1. Script permettant de vérifier les ports USB et de lancé le deuxiéme script de vérification ClamAV.**
+**1 - Script : Ce script surveille l'ajout de nouveaux périphériques de stockage via udevadm et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
 
-**2. Script permettant de faire un scan ClamAV des périphériques de stockage.**
+**2 - Script : Ce script vérifie et monte un périphérique USB, puis effectue une analyse antivirus avec clamAV sur le périphérique monté. Si le périphérique est correctement monté, il analyse les fichiers et supprime les éléments malveillants, suspects ou indésirables. Après l'analyse, le périphérique est démonté en toute sécurité, et le script attend le retrait physique du périphérique avant de se terminer.**
 
 ------------------------------------------------------------------------------
 
-**1. Script qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
+**1 - script :**
 
 ```bash
 MOUNT_POINT="/mnt/autoscan"
@@ -30,10 +30,9 @@ done
 
 ------------------------------------------------------------------------------
 
-**2. Script qui scan les périphériques de stockages avec ClamAV**
+**2 - Script :**
 
-```bash
-  GNU nano 7.2                                                                                                                                                                                                                                                                                                    /etc/antivirus/autoscan.sh
+```bash                                                                                                                                                                                                                                                                                     
 #!/bin/bash
 
 # Variable
