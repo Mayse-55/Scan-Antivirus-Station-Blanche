@@ -34,6 +34,7 @@ SCRIPT="/etc/antivirus/autoscan.sh"
 done
 ```
 📌 Ce script doit être ajouté au démarrage de la session de l'utilisateur 
+
 ------------------------------------------------------------------------------
 
 **2 - Script :**
