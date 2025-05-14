@@ -147,3 +147,5 @@ done
 
 exit 0
 ```
+------------------------------------------------------------------------------
+![Capture d'écran 2025-05-14 122051](https://github.com/user-attachments/assets/2b015c8e-ed4d-476e-8d16-d3ae108af5a2)
