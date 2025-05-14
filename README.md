@@ -3,6 +3,8 @@
 
 **Script 2 permettant de faire un scan ClamAV des périphériques de stockage.**
 
+------------------------------------------------------------------------------
+
 **Script qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
 
 ```bash
@@ -25,6 +27,8 @@ SCRIPT="/etc/antivirus/autoscan.sh"
     }
 done
 ```
+
+------------------------------------------------------------------------------
 
 **Script qui scan les périphériques de stockages avec ClamAV**
 
