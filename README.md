@@ -1,9 +1,7 @@
 # Scan-antivirus-station-blanche
 
 **Les deux script on était tester sur :**
-
 LTSP version: 23.02-1+deb12u1
-
 Debian 12
 
 **1 - Script : Ce script surveille l'ajout de nouveaux périphériques de stockage via ```udevadm``` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
