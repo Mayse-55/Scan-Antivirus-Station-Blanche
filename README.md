@@ -5,7 +5,7 @@
 
 ------------------------------------------------------------------------------
 
-**Script qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
+**Script 1 qui vérifie les ports USB et monte le périphérique de stockage automatiquement lorsqu'il est branché et lance le deuxiéme script de vérification ClamAV :**
 
 ```bash
 MOUNT_POINT="/mnt/autoscan"
@@ -30,7 +30,7 @@ done
 
 ------------------------------------------------------------------------------
 
-**Script qui scan les périphériques de stockages avec ClamAV**
+**Script 2 qui scan les périphériques de stockages avec ClamAV**
 
 ```bash
   GNU nano 7.2                                                                                                                                                                                                                                                                                                    /etc/antivirus/autoscan.sh
