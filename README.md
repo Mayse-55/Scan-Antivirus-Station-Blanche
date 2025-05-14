@@ -1,7 +1,7 @@
 # Informations
 
-LTSP version: 23.02-1+deb12u1
-Debian 12
+1. LTSP version: 23.02-1+deb12u1
+2. Debian 12
 
 # Scan-antivirus-station-blanche
 
