@@ -3,7 +3,11 @@
 1. 📦 LTSP version : `23.02-1+deb12u1`  
 2. 🐧 Distribution : Debian 12
 
+---
+
 **📄 Ce script surveille l'ajout de nouveaux périphériques de stockage via `udevadm` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
+
+---
 
 **📌 Ce script doit être ajouté et exécuté automatiquement au démarrage de la session utilisateur.**
 
