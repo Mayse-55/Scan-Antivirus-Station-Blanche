@@ -15,7 +15,7 @@
 
 ---
 
-#📋 Premier Script
+# 📋 Premier Script
 
 > [!important]
 > ✅ **Ce script doit être exécuté automatiquement au démarrage de la session utilisateur.**   
