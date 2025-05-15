@@ -51,7 +51,7 @@ done
 
 # 📋 Deuxiéme Script
 
-### 📌 À savoir
+## 📌 À savoir
 
 - Ce script **ne doit pas être ajouté et exécuté automatiquement au démarrage** car le premier script le lance automatiquement.  
 - Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
