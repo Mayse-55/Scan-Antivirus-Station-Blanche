@@ -16,7 +16,7 @@
 ---
 
 > [!important]
-> * **Ce script doit être exécuté automatiquement au démarrage de la session utilisateur.**   
+> ✅ **Ce script doit être exécuté automatiquement au démarrage de la session utilisateur.**   
 > * Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
 ```bash
 chmod +x /etc/script/autoscan
@@ -51,7 +51,7 @@ done
 # 📋 Deuxiéme Script
 
 > [!important]
-> * **Ce script ne doit pas être exécuté automatiquement au démarrage de la session utilisateur.**   
+> ❌ **Ce script ne doit pas être exécuté automatiquement au démarrage de la session utilisateur.**   
 > * Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
 ```bash
 chmod +x /etc/script/autoscan
