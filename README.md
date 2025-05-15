@@ -1,7 +1,7 @@
 # 🧾 Informations
 
-1. 📦 LTSP version : `23.02-1+deb12u1`  
-2. 🐧 Distribution : Debian 12
+* 📦 LTSP version : `23.02-1+deb12u1`  
+* 🐧 Distribution : Debian 12
 
 ---
 
