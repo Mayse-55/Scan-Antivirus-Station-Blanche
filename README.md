@@ -1,15 +1,19 @@
-# Informations
+# 🧾 Informations
 
-1. LTSP version : 23.02-1+deb12u1
-2. Debian 12
+1. 📦 LTSP version : `23.02-1+deb12u1`  
+2. 🐧 Distribution : Debian 12
 
-------------------------------------------------------------------------------
+---
 
-**📄 - Ce script surveille l'ajout de nouveaux périphériques de stockage via ```udevadm``` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
+**📄 Ce script surveille l'ajout de nouveaux périphériques de stockage via `udevadm` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
 
-**📌 - Ce script doit être ajouté et exécuté au démarrage de la session de l'utilisateur.**
+---
 
-**🐧​ - Script Bash :**
+**📌 Ce script doit être ajouté et exécuté automatiquement au démarrage de la session utilisateur.**
+
+---
+
+**🐧 Script Bash :**
 ```bash
 MOUNT_POINT="/mnt/autoscan"
 SCRIPT="/etc/antivirus/autoscan.sh"
@@ -30,7 +34,7 @@ SCRIPT="/etc/antivirus/autoscan.sh"
     }
 done
 ```
-------------------------------------------------------------------------------
+---
 
 **📄 - Ce script vérifie et monte un périphérique USB, puis effectue une analyse antivirus avec clamAV sur le périphérique monté. Si le périphérique est correctement monté, il analyse les fichiers et supprime les éléments malveillants, suspects ou indésirables. Après l'analyse, le périphérique est démonté en toute sécurité, et le script attend le retrait physique du périphérique avant de se terminer.**
 
