@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 À savoir
+### 📌 À savoir
 
 - **Ce script doit être exécuté automatiquement au démarrage.**   
 - Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
@@ -51,7 +51,7 @@ done
 
 # 📋 Deuxiéme Script
 
-## 📌 À savoir
+### 📌 À savoir
 
 - ⚠️ **Ce script ne doit pas être exécuté automatiquement au démarrage.** 
 - Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
