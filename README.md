@@ -15,6 +15,8 @@
 
 ---
 
+#📋 Premier Script
+
 > [!important]
 > ✅ **Ce script doit être exécuté automatiquement au démarrage de la session utilisateur.**   
 > 🧰​ Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
