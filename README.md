@@ -53,7 +53,7 @@ done
 
 ## 📌 À savoir
 
-- ⚠️ Ce script **ne doit pas être ajouté et exécuté automatiquement au démarrage**.  
+- ⚠️ **Ce script ne doit pas être exécuté automatiquement au démarrage.** 
 - Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
 ```bash
 chmod +x /etc/script/autoscan
