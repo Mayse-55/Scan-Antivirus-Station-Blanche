@@ -26,7 +26,7 @@ chmod +x /etc/script/autoscan
 
 ---
 
-**🐧 Script Bash :**
+**🐧 Script Bash "Scan les ports USB" :**
 ```bash
 MOUNT_POINT="/mnt/autoscan"
 SCRIPT="/etc/antivirus/autoscan.sh"
@@ -73,7 +73,7 @@ nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /b
 ```
 ---
 
-**🐧​ - Script Bash :**
+**🐧​ - Script Bash "Lance le scan ClamAV" :**
 ```bash                                                                                                                                                                                                                                                                                     
 #!/bin/bash
 
