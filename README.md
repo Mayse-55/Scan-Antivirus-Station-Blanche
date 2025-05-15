@@ -4,7 +4,7 @@
 * 🐧 Distribution : Debian 12
 
 > [!caution]
-> ✅  Ces scripts ont été **testés et validés** dans un environnement conforme aux prérequis. 
+> ✅  Ces scripts ont été **testés et validés** dans un environnement conforme aux prérequis.   
 > ❌​​​ Si vous rencontrez des **problèmes**, il est probable que cela provienne **de votre configuration**.
 ---
 
