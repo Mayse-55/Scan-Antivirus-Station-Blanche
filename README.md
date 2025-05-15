@@ -15,7 +15,7 @@
 
 ---
 
-# 📋 Premier Script
+## 📋 Premier Script
 
 > [!important]
 > ✅ **Ce script doit être exécuté automatiquement au démarrage de la session utilisateur.**   
@@ -50,7 +50,7 @@ done
 ```
 ---
 
-# 📋 Deuxiéme Script
+## 📋 Deuxiéme Script
 
 > [!important]
 > ❌ **Ce script ne doit pas être exécuté automatiquement au démarrage de la session utilisateur.**   
