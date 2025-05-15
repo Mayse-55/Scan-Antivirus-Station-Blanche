@@ -50,7 +50,17 @@ done
 ---
 
 # 📋 Deuxiéme Script
+
 ## 📌 À savoir
+
+- Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
+```bash
+chmod +x /etc/script/autoscan
+# Remplacez /etc/script/autoscan par le chemin réel de votre script
+```
+
+---
+
 **1️⃣ Pour faire fonctionner le deuxiéme script correctement il faut modifier Visudo :**
 ```bash
 visudo
@@ -60,6 +70,8 @@ visudo
 nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
 ```
+---
+
 **🐧​ - Script Bash :**
 ```bash                                                                                                                                                                                                                                                                                     
 #!/bin/bash
