@@ -5,7 +5,11 @@
 
 ---
 
-**📄 Ce script surveille l'ajout de nouveaux périphériques de stockage via `udevadm` et, lorsqu'un périphérique est détecté, il attend que celui-ci soit prêt. Ensuite, il lance un script de scan antivirus sur le périphérique détecté dans un terminal graphique.**
+**📄 Ce script utilise udevadm pour surveiller en temps réel l’ajout de nouveaux périphériques de stockage (comme des clés USB ou disques externes). Lorsqu’un périphérique est détecté par le système, le script attend que celui-ci soit entièrement initialisé et prêt à être utilisé.**
+
+**Une fois prêt, le script lance automatiquement un scan antivirus avec ClamAV en ouvrant un terminal graphique pour exécuter un script de scan dédié. Cette analyse permet de détecter et signaler toute présence de fichiers infectés ou malveillants sur le périphérique connecté.**
+
+**Cette automatisation garantit une protection efficace contre les menaces véhiculées via les supports amovibles, tout en offrant une interface visuelle facilitant le suivi de l’analyse pour l’utilisateur.**
 
 ---
 
