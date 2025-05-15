@@ -4,6 +4,7 @@
 2. 🐧 Distribution : Debian 12
 
 ---
+
 # ⚙️ Description du script
 
 **📄 Ce script utilise ```udevadm``` pour surveiller en temps réel l’ajout de nouveaux périphériques de stockage (comme des clés USB ou disques externes). Lorsqu’un périphérique est détecté par le système, le script attend que celui-ci soit entièrement initialisé et prêt à être utilisé.**
@@ -14,7 +15,10 @@
 
 ---
 
-**📌 Ce script doit être ajouté et exécuté automatiquement au démarrage de la session utilisateur.**
+## 📌 À savoir
+
+- Ce script doit être **ajouté et exécuté automatiquement au démarrage de la session utilisateur**.  
+- Il est écrit en **Bash** et doit être lancé avec les droits nécessaires.
 
 **🐧 Script Bash :**
 ```bash
