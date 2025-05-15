@@ -62,7 +62,7 @@ chmod +x /etc/script/autoscan
 
 ---
 
-**1️⃣ Pour faire fonctionner le deuxiéme script correctement il faut modifier Visudo :**
+**1️⃣ Modifier Visudo :**
 ```bash
 visudo
 ```
