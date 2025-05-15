@@ -49,8 +49,8 @@ done
 ```
 ---
 
-## 📋 Deuxiéme Script
-
+# 📋 Deuxiéme Script
+## 📌 À savoir
 **1️⃣ Pour faire fonctionner le deuxiéme script correctement il faut modifier Visudo :**
 ```bash
 visudo
