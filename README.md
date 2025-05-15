@@ -65,7 +65,7 @@ chmod +x /etc/script/autoscan
 ```bash
 visudo
 ```
-**2️⃣ Ajouter et Enregistrer :**
+**2️⃣ Ajouter cela et Enregistrer :**
 ```bash
 nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
