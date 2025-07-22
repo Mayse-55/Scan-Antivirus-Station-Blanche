@@ -2,7 +2,7 @@
 [![ClamAV](https://img.shields.io/badge/ClamAV-Antivirus-blue?style=flat-square&logo=shield&logoColor=white)](https://www.clamav.net/)
 
 * 📦 LTSP version : `23.02-1+deb12u1`  
-* 🐧 Distribution : **Debian 12**
+* 🐧 Distribution : Debian 12
 
 > [!caution]
 > ✅ Ces scripts ont été **testés et validés** dans un environnement conforme aux prérequis.   
