@@ -155,7 +155,6 @@ if sudo umount "$MOUNT_POINT"; then
     echo ""
     echo "[✓] Succès : Périphérique démontée"
     sudo fusermount -u -z "$MOUNT_POINT"
-    sudo fusermount -u -z "$DEVICE"
 else
     echo ""
     echo "[!] Erreur : Impossible de démonté le périphérique"
