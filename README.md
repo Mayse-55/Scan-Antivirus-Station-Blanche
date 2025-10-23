@@ -143,6 +143,8 @@ fi
 echo ""
 echo "[*] Vérification clamAV en cours..."
 sleep 3
+cd "$MOUNT_POINT"
+rm -f autorun*
 sudo clamscan -r --bell --remove "$MOUNT_POINT"
 
 # Demontage de la cle usb
