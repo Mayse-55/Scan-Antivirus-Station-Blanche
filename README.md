@@ -72,7 +72,7 @@ visudo
 ```
 **2️⃣ Ajouter cela et Enregistrer :**
 ```bash
-nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/rm, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
+nomdevotreprofil     ALL=(ALL) NOPASSWD: /bin/mount, /bin/fusermount, /bin/rm, /bin/umount, /bin/mkdir, /bin/chown, /bin/clamscan
 # Changer "nomdevotreprofil" par le profil que vous avez créer
 ```
 ---
